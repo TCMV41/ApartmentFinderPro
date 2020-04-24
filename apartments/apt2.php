@@ -18,7 +18,7 @@
 
 
     <title>Furnished Apartments</title>
-    <noscript><meta http-equiv="refresh" content="0; URL=/3490/badbrowser.php"></noscript>
+    <noscript><meta http-equiv="refresh" content="0; URL=/badbrowser.php"></noscript>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -118,8 +118,7 @@
                         
             <?php
             
-                $con =new mysqli("localhost","project","3490","project");
-
+                $con =new mysqli("db4free.net","tcmv41","sqldb4177!","tcmv41");
                 $res=$con-> query("SELECT * FROM apartment WHERE aptID='apt2'");
 
                 if ($res->num_rows > 0) {

@@ -127,7 +127,7 @@
 
                 <?php
                    
-                        $con =new mysqli("localhost","project","3490","project");
+                        $con =new mysqli("db4free.net","tcmv41","sqldb4177!","tcmv41");
 
                         if (mysqli_connect_errno()){
                         echo "Failed to connect to MySQL: " . mysqli_connect_error();

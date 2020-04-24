@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="js/sweetalert.css">
     
     <title>Apartment Finder Pro</title>   
-    <noscript><meta http-equiv="refresh" content="0; URL=/3490/badbrowser.php"></noscript>
+    <noscript><meta http-equiv="refresh" content="0; URL=/badbrowser.php"></noscript>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
